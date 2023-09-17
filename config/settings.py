@@ -128,5 +128,12 @@ STATICFILES_STORAGE ='whitenoise.storage.CompressedManifestStaticFilesStorage' #
 
 
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
+
+
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
